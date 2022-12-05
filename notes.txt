@@ -1,0 +1,117 @@
+** Everything in Python is Object **
+** Every object contains methods **
+
+
+number
+---------
+number can be integer or decimal or octal or hexa.
+
+aval=10
+bval  = 34.4
+
+
+
+string
+-----------
+string is sequence of characters.
+string is defined in single or double or triple quotes.
+
+
+aname = 'python'
+bname = "scala programming"
+cname = """java programming"""
+dname = '''unix shell'''
+
+
+
+
+
+
+
+
+
+
+
+
+list
+-----
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30,40]
+blist = ["python","scala","hadoop",43,43.3]
+
+
+
+
+tuple  ( immutable , unchangeable , uneditable)
+-----
+tuple contains set of elements.
+tuples are faster compared to list.
+Elements can be numbers or strings or any combination or list of lits or tup.
+tuple elements are defined in ().
+******* Elements inside tuple cannot be modified directly *******
+
+
+atup = (34,32,"unix",34.4)
+
+
+
+
+
+dictionary  ( json , hash , hashmap )
+----------
+dictionary contains elements in key-value pairs.
+dicitionary is defined in {}.
+In dictionary... keys are always unique
+               value can be number,string,list,tuple or complex data structure
+***** Indexing is NOT allowed in the dictionary and set *****
+
+syntax:    object = {key:value , key:value , key:value }
+example:     book = {"chap1":10,"chap2":20,"chap3":30,"chap1":100}
+
+book = {"chap1":[10,'Rao','IND'],"chap2":[20,'Rita','US']}
+
+
+
+
+
+set
+------
+set is UNORDERED collection of UNIQUE values of the same type.
+
+
+
+
+
+
+commenting in python
+------------------------
+
+
+# this is single line comment
+
+
+'''
+all these
+lines
+are commented
+'''
+
+"""
+these
+lines are commented
+"""
+
+
+
+
+
+
+
+
+
+
+
+
