@@ -24,15 +24,6 @@ dname = '''unix shell'''
 
 
 
-
-
-
-
-
-
-
-
-
 list
 -----
 list contains set of elements.
@@ -103,6 +94,311 @@ are commented
 these
 lines are commented
 """
+
+
+
+conditional statements
+-----------------------
+simple if
+if-else
+if-elif-elif-elif... else
+
+
+control statements
+--------------------
+for
+while
+
+
+operators
+------------
+
+
+arithmetic operators :  +  - *   %  /
+
+
+relational operators
+----------------------
+<  <= > >= == !=
+
+logical operators
+--------------------
+and or not
+
+name = 'python'
+if len(name) == 6  and name.islower() :
+     # your logic
+
+if len(name) == 6  or name.islower() :
+     # your logic
+
+if not name.isupper():
+    # do something
+
+
+assignment operators
+-----------------------
+val = 10
+val = val + 1   or val+=1
+val = val -1    or val-=1
+val = val * 1   or val*=1
+
+special operators
+-------------------
+in
+as
++
+*
+
+
+
+
+
+
+
+
+
+
+
+functions | definition | subroutine
+--------------------------------------
+- code reusability
+
+There are 2 types of functions
+
+- builtin functions
+- user defined funcitons
+
+
+- builtin functions       in the console   dir(__builtin__)
+----------------------
+print()
+range()
+len()
+type()
+isinstance()
+sum()
+max()
+min()
+round()
+dir()
+help()
+input()  :  input from the keyboard
+str()
+int()
+list()
+tuple()
+dict()
+set()
+float()
+
+
+user defined functions
+-------------------------
+- resusability purpose
+- define the code once and call it for multiple times.
+
+different ways of passing arguments
+--------------------------------------
+
+-fixed arguments
+-default arguments
+-keyword arguments
+-variable length arguments
+
+
+file handling
+---------------
+
+- core programming - using core python
+- using pandas library
+
+
+working with flat files ( csv conf log txt tsv ... )
+-------------------------------------
+
+opening the file
+-----------------
+syntax:     object = open(filename,mode)
+example:      fr = open("abc.txt","r")  # read mode
+              fw = open("abc.txt","w")  # write mode
+              fa = open("abc.txt","a")  # append mode
+
+
+closing the file
+-------------------
+fobj.close()
+
+
+file read operation
+---------------------
+
+
+- reading file using file object
+- using fobj.readlines()
+- using fobj.read()
+- using csv library
+- using pandas library
+
+
+package | library |  modules
+----------------------------------
+- code reusability
+
+
+builtin libraries
+-------------------
+All the builtin libraries which are generally used(system level operations, math operations, ftp operaitons, string operations, copying files )are installed with python
+
+
+third party libraries
+---------------------
+Depending on the requirement(data analytics, data science, database operations, image processing, cloud automation, test automation) developer has to install third party package from 
+
+-installing with pip tool
+-downloading manually from www.pypi.org 
+
+
+exception handling
+---------------------
+There are 2 types of errors.
+
+- syntax error
+- semantic error
+
+
+handling the errors in the runtime is known as exception handling
+
+
+try
+except
+else
+finally
+raise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+working with third party files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
